@@ -1,0 +1,121 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, bold;  
+    margin: 0;
+}
+
+h1{
+    text-align: left;
+    padding-left: 10px;
+    color: #f7c331;
+}
+
+h2{
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-weight:bolder;
+    color: #f7882f;
+}
+
+header{
+    color: rgb(240, 240, 240);
+    background-color: #6b7a8f;
+    text-align: center;
+    padding: 10px;
+}
+
+.cabecalho{
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #6b7a8f; 
+    margin: 5px 15px 20px 15px;
+    color: #f7c331;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.cabecalho2{
+    padding: 10px;
+    padding-left: 60px;
+    border-radius: 5px;
+    background-color: #f7c331; 
+    margin: 15px 80px  ;
+    color: #3a4b57;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.secao{
+    padding: 10px;
+    box-sizing: border-box;
+    line-height: 15px;
+    color: #6b7a8f;
+    margin: 20px 85px;
+    border-style: dashed; 
+}
+
+#dadosPessoais, #contato, #documentos {
+    padding: 10px; 
+    margin: 15px 10px 15px 5px;    
+    background-color: rgba(143, 151, 172, 0.226);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #f7882f;   
+}
+
+#nome, #dataNascimento, #estadoCivil, #genero, #cargo, #email, #endereco, #bairro, #cidade, #estado{
+    padding: 3px;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+}
+
+#celular, #telFixo, #CEP, #RG, #CPF, #veiculo, #cnh{
+    padding: 3px;
+    margin: 10px;
+    display: flex;
+    justify-content: flex;
+}
+
+input, select{
+    border-radius: 7px;
+    border-width: 2px;
+    border-style:dotted;
+    padding: 2px;
+}
+
+.radio input{
+    margin-right: 10px;
+}
+
+
+#botao{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #f7c331;
+    padding: 10px 15px;
+    width: 100px;
+    color: #2b3a44;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#footer{
+    color: rgb(240, 240, 240);
+    background-color: #6b7a8f;
+    text-align: center;
+    padding: 10px;
+    background-attachment: fixed;    
+}
+
+
+
+
