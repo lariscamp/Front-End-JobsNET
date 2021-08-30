@@ -33,7 +33,7 @@ const App = () => {
     cargo: "",
     email: "",
     celular: "",
-    telFixo: "",
+    telefoneFixo: "",
     endereco: "",
     bairro: "",
     cidade: "",
@@ -156,10 +156,10 @@ const App = () => {
 
           <div>
             <label>Telefone Fixo:</label>
-            <input type="tel" name="telFixo" id="telFixo" placeholder="Digite apenas números"
+            <input type="tel" name="telefoneFixo" id="telefoneFixo" placeholder="Digite apenas números"
               minLength="10" maxLength="11" 
               onChange={handleChange} 
-              value={form.telFixo} pattern="[0-9]+$" />
+              value={form.telefoneFixo} pattern="[0-9]+$" />
           </div>
 
           <div>

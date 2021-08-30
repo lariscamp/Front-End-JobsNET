@@ -72,7 +72,7 @@ header{
     max-width: 50%;
 }
 
-#celular, #telFixo, #CEP, #RG, #CPF, #veiculo, #cnh{
+#celular, #telefoneFixo, #CEP, #RG, #CPF, #veiculo, #cnh{
     padding: 3px;
     margin: 10px;
     display: flex;
